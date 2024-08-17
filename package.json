@@ -1,5 +1,5 @@
 {
-  "homepage":"https://maerih.github.io/Portfolio",
+  "homepage": "https://maerih.github.io/Portfolio",
   "name": "maeri",
   "version": "2.0.0",
   "scripts": {
@@ -20,9 +20,10 @@
     "draftjs-to-html": "^0.9.1",
     "expr-eval": "^2.0.2",
     "jquery": "^3.7.0",
-    "next": "latest",
+    "next": "^14.2.5",
     "pdfjs-dist": "^3.9.179",
-    "react": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-draft-wysiwyg": "^1.15.0",
     "react-draggable": "^4.4.5",
     "react-ga": "^3.3.1",
