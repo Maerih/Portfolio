@@ -249,7 +249,7 @@ export class Terminal extends Component {
                 break;
             case "whoami":
                 if (words[0] === "." || words.length === 0) {
-                    this.props.openApp("ThreatMap");
+                    this.props.openApp("about-ali");
                 } else {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, whoami, chrome, ThreatMap, trash, settings, sendmsg ]";
                 }
@@ -263,7 +263,7 @@ export class Terminal extends Component {
                 break;
             case "ThreatMap":
                 if (words[0] === "." || words.length === 0) {
-                    this.props.openApp("whoami");
+                    this.props.openApp("spotify");
                 } else {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, whoami, chrome, ThreatMap, trash, settings, sendmsg ]";
                 }
